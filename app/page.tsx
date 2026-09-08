@@ -5,14 +5,15 @@ import {
   BrainCircuit,
   Braces,
   Cpu,
+  ExternalLink,
   FileText,
   Github,
   Linkedin,
   Mail,
   Microchip,
   Radio,
-  Rocket,
   Smartphone,
+  Ticket,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -56,6 +57,10 @@ const copy = {
     foodDescription:
       "A complete ordering platform with React web and Expo mobile clients sharing an Express REST API, including authentication, biometrics, geolocation and order tracking.",
     crossPlatform: "CROSS-PLATFORM",
+    theaterTitle: "Theatre Booking",
+    theaterDescription:
+      "A distributed mobile reservation system with interactive seat selection, JWT authentication, administration tools and a relational MariaDB backend.",
+    viewSource: "View source",
     expertiseLabel: "CORE EXPERTISE",
     expertiseTitle: "Where hardware meets intelligence.",
     expertiseIntro:
@@ -115,6 +120,10 @@ const copy = {
     foodDescription:
       "Ολοκληρωμένη πλατφόρμα παραγγελιών με React web και Expo mobile clients σε κοινό Express REST API, με authentication, biometrics, geolocation και order tracking.",
     crossPlatform: "CROSS-PLATFORM",
+    theaterTitle: "Theatre Booking",
+    theaterDescription:
+      "Distributed mobile σύστημα κρατήσεων με επιλογή θέσεων, JWT authentication, εργαλεία διαχείρισης και relational MariaDB backend.",
+    viewSource: "Προβολή κώδικα",
     expertiseLabel: "ΚΥΡΙΑ ΕΞΕΙΔΙΚΕΥΣΗ",
     expertiseTitle: "Εκεί που το hardware συναντά τη νοημοσύνη.",
     expertiseIntro:
@@ -257,6 +266,14 @@ export default function Home() {
               <span className="tag">Signal Processing</span>
               <span className="tag">State Machine</span>
             </div>
+            <a
+              className="project-link"
+              href="https://github.com/koxouzoglou/bios-beep-code-analyzer"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {t.viewSource} <ExternalLink size={14} />
+            </a>
           </div>
         </article>
 
@@ -297,6 +314,14 @@ export default function Home() {
               <span className="tag">Keras</span>
               <span className="tag">scikit-learn</span>
             </div>
+            <a
+              className="project-link"
+              href="https://github.com/koxouzoglou/heart-disease-neural-network"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {t.viewSource} <ExternalLink size={14} />
+            </a>
           </article>
 
           <article className="project-card">
@@ -317,24 +342,37 @@ export default function Home() {
               <span className="tag">REST API</span>
               <span className="tag">WebAuthn</span>
             </div>
+            <a
+              className="project-link"
+              href="https://github.com/koxouzoglou/foodrush"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {t.viewSource} <ExternalLink size={14} />
+            </a>
           </article>
 
           <article className="project-card">
             <div className="icon">
-              <Rocket size={22} />
+              <Ticket size={22} />
             </div>
-            <span className="project-number">05 / NEXT EXPERIMENT</span>
-            <h3>{language === "en" ? "Always building." : "Πάντα σε δημιουργία."}</h3>
-            <p>
-              {language === "en"
-                ? "More robotics, embedded and AI experiments will be documented here as they move from prototype to working system."
-                : "Περισσότερα πειράματα σε ρομποτική, embedded και AI θα παρουσιάζονται εδώ καθώς εξελίσσονται από prototype σε λειτουργικό σύστημα."}
-            </p>
+            <span className="project-number">05 / DISTRIBUTED MOBILE SYSTEM</span>
+            <h3>{t.theaterTitle}</h3>
+            <p>{t.theaterDescription}</p>
             <div className="tags">
-              <span className="tag">Research</span>
-              <span className="tag">Build</span>
-              <span className="tag">Iterate</span>
+              <span className="tag">React Native</span>
+              <span className="tag">Express</span>
+              <span className="tag">MariaDB</span>
+              <span className="tag">JWT</span>
             </div>
+            <a
+              className="project-link"
+              href="https://github.com/koxouzoglou/theatre-booking"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {t.viewSource} <ExternalLink size={14} />
+            </a>
           </article>
         </div>
       </section>

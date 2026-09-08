@@ -7,7 +7,14 @@ const compat = new FlatCompat({
 const config = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
-    ignores: [".next/**", "node_modules/**", "next-env.d.ts"],
+    ignores: [
+      ".next/**",
+      "out/**",
+      "node_modules/**",
+      "github-ready/**",
+      "github-profile/**",
+      "next-env.d.ts",
+    ],
   },
 ];
 

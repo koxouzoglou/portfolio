@@ -47,10 +47,10 @@ const content = {
         ],
       },
       {
-        name: "AI Keychain",
-        type: "Embedded Edge-AI Concept · In Planning",
+        name: "Theatre Booking System",
+        type: "Distributed Mobile Systems",
         bullets: [
-          "Designed a modular ESP32-S3 architecture for wake word, speech, hybrid local/cloud AI, I2S audio and power management.",
+          "Built an Expo/React Native booking app with JWT authentication, interactive seat reservations, an Express API and relational MariaDB schema.",
         ],
       },
     ],
@@ -107,10 +107,10 @@ const content = {
         ],
       },
       {
-        name: "AI Keychain",
-        type: "Embedded Edge-AI Concept · Σχεδιασμός",
+        name: "Theatre Booking System",
+        type: "Distributed Mobile Systems",
         bullets: [
-          "Σχεδίασα modular ESP32-S3 αρχιτεκτονική για wake word, speech, hybrid local/cloud AI, I2S audio και power management.",
+          "Ανέπτυξα Expo/React Native εφαρμογή κρατήσεων με JWT authentication, επιλογή θέσεων, Express API και relational MariaDB schema.",
         ],
       },
     ],
