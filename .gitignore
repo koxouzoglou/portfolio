@@ -15,6 +15,9 @@
 /github-profile/
 /github-ready/
 /cv*-preview.png
+/public/cover-letter/
+/public/cv/*Robotics_CV*
+/scripts/generate_professional_documents.py
 
 # debug
 npm-debug.log*
