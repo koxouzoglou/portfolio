@@ -11,7 +11,7 @@ const content = {
     print: "Save as PDF",
     summaryTitle: "Profile",
     summary:
-      "Computer Science graduate focused on embedded systems, robotics, AI and software engineering. I build tested, maintainable systems across real-time Arduino firmware, machine learning and cross-platform applications.",
+      "Computer Science graduate focused on embedded systems, robotics, artificial intelligence and software engineering. Project experience spans real-time Arduino firmware, neural networks and cross-platform products, with an emphasis on translating technical requirements into tested, maintainable systems.",
     educationTitle: "Education",
     degree: "BSc (Hons) Computer Science",
     institution: "University of East London",
@@ -25,8 +25,9 @@ const content = {
         type: "BSc Thesis · Embedded Systems",
         url: "https://github.com/koxouzoglou/bios-beep-code-analyzer",
         bullets: [
-          "Designed an Arduino Uno diagnostic device that decodes motherboard beep signals and identifies probable hardware faults on a 128×64 OLED.",
-          "Built ~1,900 lines of C++ firmware using edge detection, dual state machines and BIOS-specific timing; supported AMI, Award and Phoenix and passed 7/7 hardware tests.",
+          "Designed an Arduino Uno diagnostic device that decodes motherboard beep signals and presents hardware fault guidance on a 128×64 OLED.",
+          "Implemented approximately 1,900 lines of C++ firmware using edge detection, dual finite-state machines, EEPROM persistence and BIOS-specific timing.",
+          "Supported AMI, Award and Phoenix patterns; passed 7/7 defined hardware test scenarios.",
         ],
       },
       {
@@ -34,8 +35,8 @@ const content = {
         type: "Academic AI Project",
         url: "https://github.com/koxouzoglou/heart-disease-neural-network",
         bullets: [
-          "Built a TensorFlow/Keras MLP for binary classification from 13 clinical features in the Cleveland Heart Disease dataset.",
-          "Coursework run reported 95.56% accuracy on a selected 45-sample test split; the public version uses leakage-safe preprocessing and documents limitations.",
+          "Built a TensorFlow/Keras MLP for binary classification of the Cleveland Heart Disease dataset from 13 clinical features.",
+          "Coursework run reported 95.56% accuracy on a selected 45-sample test split; the public version documents dataset limitations and uses leakage-safe preprocessing.",
         ],
       },
       {
@@ -43,8 +44,8 @@ const content = {
         type: "Full-stack & Mobile Project",
         url: "https://github.com/koxouzoglou/foodrush",
         bullets: [
-          "Developed React web and Expo mobile clients sharing a Node.js/Express REST API and LowDB data layer.",
-          "Implemented authentication, checkout, order tracking, geolocation, WebAuthn and mobile biometrics.",
+          "Developed React web and Expo/React Native clients sharing a Node.js/Express REST API and LowDB data layer.",
+          "Implemented authentication, cart and checkout flows, order tracking, geolocation, WebAuthn and mobile biometrics.",
         ],
       },
       {
@@ -73,7 +74,7 @@ const content = {
     print: "Αποθήκευση PDF",
     summaryTitle: "Προφίλ",
     summary:
-      "Απόφοιτος Πληροφορικής με εστίαση στα embedded systems, τη ρομποτική, το AI και το software engineering. Αναπτύσσω δοκιμασμένα, συντηρήσιμα συστήματα σε real-time Arduino firmware, machine learning και cross-platform εφαρμογές.",
+      "Απόφοιτος Πληροφορικής με εστίαση στα embedded systems, τη ρομποτική, την τεχνητή νοημοσύνη και το software engineering. Εμπειρία μέσω projects σε real-time Arduino firmware, νευρωνικά δίκτυα και cross-platform προϊόντα, με έμφαση στη μετατροπή τεχνικών απαιτήσεων σε δοκιμασμένα και συντηρήσιμα συστήματα.",
     educationTitle: "Εκπαίδευση",
     degree: "BSc (Hons) Computer Science",
     institution: "University of East London",
@@ -87,8 +88,9 @@ const content = {
         type: "Πτυχιακή · Embedded Systems",
         url: "https://github.com/koxouzoglou/bios-beep-code-analyzer",
         bullets: [
-          "Σχεδίασα διαγνωστική συσκευή Arduino Uno που αποκωδικοποιεί motherboard beep signals και εντοπίζει πιθανές βλάβες σε OLED 128×64.",
-          "Ανέπτυξα ~1.900 γραμμές C++ firmware με edge detection, δύο state machines και timing ανά BIOS· υποστήριξη AMI, Award και Phoenix και επιτυχία σε 7/7 hardware tests.",
+          "Σχεδίασα διαγνωστική συσκευή Arduino Uno που αποκωδικοποιεί motherboard beep signals και εμφανίζει οδηγίες βλάβης σε OLED 128×64.",
+          "Υλοποίησα περίπου 1.900 γραμμές C++ firmware με edge detection, δύο finite-state machines, EEPROM persistence και timing ανά BIOS.",
+          "Υποστήριξη AMI, Award και Phoenix· επιτυχία σε 7/7 καθορισμένα hardware test scenarios.",
         ],
       },
       {
@@ -96,8 +98,8 @@ const content = {
         type: "Ακαδημαϊκό AI Project",
         url: "https://github.com/koxouzoglou/heart-disease-neural-network",
         bullets: [
-          "Ανέπτυξα TensorFlow/Keras MLP για δυαδική ταξινόμηση από 13 κλινικά χαρακτηριστικά του Cleveland Heart Disease dataset.",
-          "Το coursework run κατέγραψε 95,56% accuracy σε επιλεγμένο test split 45 δειγμάτων· η δημόσια έκδοση χρησιμοποιεί leakage-safe preprocessing και τεκμηριώνει τους περιορισμούς.",
+          "Ανέπτυξα TensorFlow/Keras MLP για δυαδική ταξινόμηση του Cleveland Heart Disease dataset από 13 κλινικά χαρακτηριστικά.",
+          "Το coursework run κατέγραψε 95,56% accuracy σε επιλεγμένο test split 45 δειγμάτων· η δημόσια έκδοση τεκμηριώνει τους περιορισμούς και χρησιμοποιεί leakage-safe preprocessing.",
         ],
       },
       {
@@ -105,8 +107,8 @@ const content = {
         type: "Full-stack & Mobile Project",
         url: "https://github.com/koxouzoglou/foodrush",
         bullets: [
-          "Ανέπτυξα React web και Expo mobile clients πάνω σε κοινό Node.js/Express REST API και LowDB.",
-          "Υλοποίησα authentication, checkout, order tracking, geolocation, WebAuthn και mobile biometrics.",
+          "Ανέπτυξα React web και Expo/React Native clients πάνω σε κοινό Node.js/Express REST API και LowDB.",
+          "Υλοποίησα authentication, cart/checkout, order tracking, geolocation, WebAuthn και mobile biometrics.",
         ],
       },
       {
