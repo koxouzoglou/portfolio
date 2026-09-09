@@ -57,7 +57,7 @@ Use this exact headline:
 - Location: Thessaloniki, Central Macedonia, Greece
 - Email: koxouzoglou@gmail.com
 - GitHub: https://github.com/koxouzoglou
-- Portfolio: add the deployed URL when available
+- Portfolio: https://koxouzoglou.github.io/portfolio/
 - Enable "Open to Work" for recruiters only.
 - Job locations: Thessaloniki, Greece, European Union and Remote.
 - Job types: Full-time, Internship and Graduate programme.
@@ -79,7 +79,8 @@ Use this exact headline:
 > I have also developed a TensorFlow/Keras neural network for heart-disease
 > classification with 95.56% test accuracy on the selected test split, and
 > FoodRush, a food-ordering platform with React web and Expo mobile clients
-> sharing a Node.js/Express REST API.
+> sharing a Node.js/Express REST API. I also built a distributed theatre booking
+> application with React Native, Express, JWT authentication and MariaDB.
 >
 > I am currently developing my knowledge of edge AI and connected embedded
 > products through an ESP32-S3 voice-assistant concept. I am looking for a junior
@@ -133,7 +134,8 @@ Create one LinkedIn Project entry for each:
 1. BIOS Beep Code Analyzer — BSc Thesis
 2. Heart Disease Classification with Neural Networks
 3. FoodRush — Cross-platform Food Ordering Application
-4. AI Keychain — Embedded Edge-AI Concept
+4. Theatre Booking System — Distributed Mobile Application
+5. AI Keychain — Embedded Edge-AI Concept
 
 For the AI Keychain, write "planning and architecture phase"; do not claim that
 the hardware prototype, local models, PCB or enclosure have been completed.
@@ -165,11 +167,11 @@ Add:
 - REST APIs
 - Git
 - GitHub
+- SQL
+- MariaDB
 - Software Development
 - Object-Oriented Programming
 - Problem Solving
-
-Only add SQL after confirming practical experience.
 
 ### Profile settings
 
@@ -195,7 +197,7 @@ Only add SQL after confirming practical experience.
 - Location: Thessaloniki, Greece
 - Email: keep private on GitHub; use the public profile README for contact.
 - LinkedIn: https://www.linkedin.com/in/konstantinos-oxouzoglou-850248334
-- Portfolio: add after deployment.
+- Portfolio: https://koxouzoglou.github.io/portfolio/
 
 ### Repository order
 
@@ -204,8 +206,9 @@ Pin repositories in this order:
 1. `bios-beep-code-analyzer`
 2. `heart-disease-neural-network`
 3. `foodrush`
-4. `ai-keychain`
-5. `portfolio`
+4. `theatre-booking`
+5. `ai-keychain`
+6. `portfolio`
 
 ### Rules for every repository
 
@@ -236,4 +239,3 @@ Pin repositories in this order:
 - Final degree classification/grade, if issued later.
 - Formal graduation date, when announced.
 - Any certifications, seminars, hackathons or awards.
-- Portfolio deployment URL.

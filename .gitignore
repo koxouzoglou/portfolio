@@ -14,7 +14,7 @@
 .env*
 /github-profile/
 /github-ready/
-/cv-preview.png
+/cv*-preview.png
 
 # debug
 npm-debug.log*
