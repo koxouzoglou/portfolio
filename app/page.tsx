@@ -231,7 +231,7 @@ export default function Home() {
           <div className="project-visual">
             <Image
               className="poster-image"
-              src="/projects/bios-beep-analyser-poster.png"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/projects/bios-beep-analyser-poster.png`}
               alt={
                 language === "en"
                   ? "BIOS Beep Code Analyzer thesis poster"

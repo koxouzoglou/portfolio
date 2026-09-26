@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
+const basePath = process.env.GITHUB_ACTIONS === "true" ? "/portfolio" : "";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
@@ -8,8 +8,12 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isGitHubPages ? "/portfolio" : "",
-  assetPrefix: isGitHubPages ? "/portfolio/" : undefined,
+  basePath,
+  assetPrefix: basePath ? `${basePath}/` : undefined,
+  env: {
+    // next/image with unoptimized does not always apply basePath on static export
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
 };
 
 export default nextConfig;
